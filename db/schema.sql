@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS Anne_MakeUpBlog;
+CREATE DATABASE Anne_MakeUpBlog;
