@@ -1,9 +1,9 @@
-// Handler function for chess login form submission
-const chessLoginFormHandler = async (event) => {
+// Handler function for makeup login form submission
+const makeupLoginFormHandler = async (event) => {
   event.preventDefault();
   // Get the values of the username and password input fields
-  const username = document.querySelector('#username-chess-login').value.trim();
-  const password = document.querySelector('#password-chess-login').value.trim();
+  const username = document.querySelector('#username-makeup-login').value.trim();
+  const password = document.querySelector('#password-makeup-login').value.trim();
   // If the input fields have values
   if (username && password) {
         // Send a POST request to the login endpoint with the input values as JSON data
@@ -22,8 +22,8 @@ const chessLoginFormHandler = async (event) => {
   }
 };
 
-// Event listener for the chess login form
-const chessLoginForm = document.querySelector('.chess-login-form');
-if (chessLoginForm) {
-  chessLoginForm.addEventListener('submit', chessLoginFormHandler);
+// Event listener for the makeup login form
+const makeupLoginForm = document.querySelector('.makeup-login-form');
+if (makeupLoginForm) {
+  makeupLoginForm.addEventListener('submit', makeupLoginFormHandler);
 }

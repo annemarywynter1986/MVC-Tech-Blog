@@ -1,9 +1,9 @@
-const newChessCommentFormHandler = async (event) => {
+const newMakeUpCommentFormHandler = async (event) => {
   event.preventDefault();
 
   const post_id = parseInt(window.location.pathname.split('/').pop());
 
-  const content = document.querySelector('#content-new-chess-comment').value.trim();
+  const content = document.querySelector('#content-new-makeup-comment').value.trim();
 
   if (content) {
     const response = await fetch(`/api/comments`, {
@@ -25,7 +25,7 @@ const newChessCommentFormHandler = async (event) => {
 
 
 // Event listeners
-const newChessCommentForm = document.querySelector('.new-chess-comment-form');
-if (newChessCommentForm) {
-  newChessCommentForm.addEventListener('submit', newChessCommentFormHandler);
+const newMakeUpCommentForm = document.querySelector('.new-makeup-comment-form');
+if (newMakeUpCommentForm) {
+  newMakeUpCommentForm.addEventListener('submit', newMakeUpCommentFormHandler);
 }

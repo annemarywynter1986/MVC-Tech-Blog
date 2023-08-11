@@ -4,12 +4,12 @@ const post_id = window.location.toString().split("/")[
 ];
 
 // Update the post
-const updateChessPostFormHandler = async (event) => {
+const updateMakeupPostFormHandler = async (event) => {
   event.preventDefault();
 
-  const title = document.querySelector("#title-update-chess-post").value.trim();
+  const title = document.querySelector("#title-update-makeup-post").value.trim();
   const content = document
-    .querySelector("#content-update-chess-post")
+    .querySelector("#content-update-makeup-post")
     .value.trim();
 
   if (title && content) {
@@ -28,7 +28,7 @@ const updateChessPostFormHandler = async (event) => {
 };
 
 // Delete the post
-const deleteChessPostFormHandler = async (event) => {
+const deleteMakeUpPostFormHandler = async (event) => {
   event.preventDefault();
 
   const response = await fetch(`/api/posts/${post_id}`, {
@@ -43,14 +43,14 @@ const deleteChessPostFormHandler = async (event) => {
 };
 
 // Event listeners
-const updateChessPostButton = document.querySelector("#update-chess-post");
+const updateMakeUpPostButton = document.querySelector("#update-makeup-post");
 
-if (updateChessPostButton) {
-  updateChessPostButton.addEventListener("click", updateChessPostFormHandler);
+if (updateMakeUpPostButton) {
+  updateMakeUpPostButton.addEventListener("click", updateMakeupPostFormHandler);
 }
 
-const deleteChessPostButton = document.querySelector("#delete-chess-post");
+const deleteMakeUpPostButton = document.querySelector("#delete-makeup-post");
 
-if (deleteChessPostButton) {
-  deleteChessPostButton.addEventListener("click", deleteChessPostFormHandler);
+if (deleteMakeUpPostButton) {
+  deleteMakeUpPostButton.addEventListener("click", deleteMakeUpPostFormHandler);
 }
