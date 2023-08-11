@@ -70,6 +70,8 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ### Figure.1 T
 
 The following animation demonstrates the application functionality:
+![gif](https://github.com/annemarywynter1986/MVC-Tech-Blog/assets/130412307/9a2fd287-c273-4b7b-b5b2-d89ade710d32)
+
 
 
 ## Usage Instructions:
@@ -87,6 +89,7 @@ The following animation demonstrates the application functionality:
 8. Account Log out: click on "logout" in the navigation menu.
 
 ## Deployed Application Link:
+https://radiant-fjord-05726-655a66c972dc.herokuapp.com/
 
 
 ## GitHub Repository:
@@ -94,10 +97,19 @@ https://github.com/annemarywynter1986/MVC-Tech-Blog.git
 
 
 ##  Walkthrough Video:
-
+https://drive.google.com/file/d/19F7jvj7-BvlQDQcMAQhgRAKkHMOfjHSs/view?usp=sharing
 
 ## Screenshots:
-### Figure 1. Screenshot
+![Screen Shot one](https://github.com/annemarywynter1986/MVC-Tech-Blog/assets/130412307/6f41b1fe-c3a6-471b-b43b-d8fc7d365f6c)
+![Screen Shot two](https://github.com/annemarywynter1986/MVC-Tech-Blog/assets/130412307/486b649a-ea7c-40af-aeac-7e83863a6741)
+
+![Screen Shot three](https://github.com/annemarywynter1986/MVC-Tech-Blog/assets/130412307/1bfec9c4-8f1c-46f4-8304-386177db80bf)
+
+![Screen Shot four](https://github.com/annemarywynter1986/MVC-Tech-Blog/assets/130412307/f2ec60c0-1c12-4e33-a905-498fc27d6339)
+![Screen Shot five](https://github.com/annemarywynter1986/MVC-Tech-Blog/assets/130412307/22d910e8-2ed1-46bd-a6b9-db50105963e8)
+
+
+
 
 
 ## Installation Process
